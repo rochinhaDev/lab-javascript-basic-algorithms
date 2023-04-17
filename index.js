@@ -48,3 +48,15 @@ function nameBack(name) {
   return nameBack;
 }
 console.log(nameBack(hacker1));
+function compareNames(str1, str2) {
+    if (str1 === str2) {
+      return "What?! You both have the same name?";
+    } else if (str1 < str2) {
+      return `"${str1}" The driver's name goes first.`;
+    } else {
+      return `"${str2}" Yo, the navigator goes first, definitely.`;
+    }
+  }
+  console.log(compareNames(hacker1, hacker2));
+
+  
